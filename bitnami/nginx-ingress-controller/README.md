@@ -340,9 +340,9 @@ In this version you can indicate the key to download the GeoLite2 databases usin
 
 - Chart labels were adapted to follow the [Helm charts standard labels](https://helm.sh/docs/chart_best_practices/labels/#standard-labels).
 - Several parameters were renamed or dissapeared in favor of new ones on this major version. These are a few examples:
-  - `*.securityContext` paramateres are deprecated in favor of `*.containerSecurityContext` ones.
-  - `*.minAvailable` paramateres are deprecated in favor of `*.pdb.minAvailable` ones.
-  - `extraContainers`  paramatere is deprecated in favor of `sidecars`.
+  - `*.securityContext` parameters are deprecated in favor of `*.containerSecurityContext` ones.
+  - `*.minAvailable` parameters are deprecated in favor of `*.pdb.minAvailable` ones.
+  - `extraContainers`  parameter is deprecated in favor of `sidecars`.
 - This version also introduces `bitnami/common`, a [library chart](https://helm.sh/docs/topics/library_charts/#helm) as a dependency. More documentation about this new utility could be found [here](https://github.com/bitnami/charts/tree/master/bitnami/common#bitnami-common-library-chart). Please, make sure that you have updated the chart dependencies before executing any upgrade.
 
 Consequences:
